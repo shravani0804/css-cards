@@ -2,9 +2,10 @@
 <html>
 <head>
     <title>Css cards</title>
+    <link rel="stylesheet" href="stylesheet.css"/>
 </head>
 <style>
-    .card{
+    .card-1{
         height:400px;
         width:300px;
         border:5px solid #7D1C4A;
@@ -25,18 +26,21 @@
         color:#56021F;
         
     }
-    .description{
+    .description-1{
         color:#7D1C4A;
         font-weight: bold;
         padding: 10px 20px;
     }
-    .price{
+    
+    .p1{
         font-size: 20px;
         font-weight: bold;
         text-align: center;
-        
+        }
+    .price-1{
+        font-size:25px;
     }
-    .buy-now{
+    .btn-1{
         background-color:#7D1C4A;
         color:#fff;
         display:block;
@@ -48,19 +52,83 @@
 
 
 <body>
-    <div class="card">
+    <table><tr><td>
+    <div class="card-1">
         <img src="./images/red roses.jpg" class="card-1-img" alt="red-roses">
         <h2 class="header-1">RED-ROSES</h2>
-        <p class="description">
+        <p class="description-1">
             Red rose bouquets for ocassions like Weddings and Anniversaries.
             Red roses signifies Love and Beauty.
         </p>    
-        <p class="price">
-            <del>₹300/-</del>&nbsp;<span class="price">250/-</span>
+        <p class="p1">
+            <del>₹400/-</del>&nbsp;<span class="price-1">350/-</span>
         </p>
-        <button class="buy-now" value="submit">Buy Now</button>
-      </div>
+        <button class="btn-1" value="submit">Buy Now</button>
+      </div></td>
+      <td>
+        <div class="card-2">
+            <img src="./images/pink-rose.jpg" class="card-2-img" alt="pink-roses">
+            <h2 class="header-2">PINK-ROSES</h2>
+            <p class="description-2">
+                Pink rose bouquets for ocassions like Birthdays and fellicitations.
+                Pink roses signifies Appreciation and Gratitude.
+            </p>    
+            <p class="p2">
+                <del>₹350/-</del>&nbsp;<span class="price-1">300/-</span>       
+            </p>
+            <button class="btn-2" value="submit">Buy Now</button>
+          </div>
 
+      </td>
+      <td>
+        <div class="card-3">
+            <img src="./images/yellow-rose.jpg" class="card-3-img" alt="yellow-roses">
+            <h2 class="header-3">YELLOW-ROSES</h2>
+            <p class="description-3">
+                Pink rose bouquets for ocassions like Birthdays and fellicitations.
+                Pink roses signifies Appreciation and Gratitude.
+            </p>    
+            <p class="p3">
+                <del>₹300/-</del>&nbsp;<span class="price-3">250/-</span>       
+            </p>
+            <button class="btn-3" value="submit">Buy Now</button>
+          </div>
+
+      </td>
+    </tr>
+    <tr>
+        <td>
+            <div class="card-4">
+                <img src="./images/tulips.jpg" class="card-4-img" alt="tulips">
+                <h2 class="header-4">TULIPS</h2>
+                <p class="description-4">
+                    Tulips bouquets for floral decorations and gifting.
+                    Refreshing tulips can make your day more beautiful.
+                </p>    
+                <p class="p4">
+                    <del>₹250-</del>&nbsp;<span class="price-4">200/-</span>       
+                </p>
+                <button class="btn-4" value="submit">Buy Now</button>
+              </div>
     
+          </td>
+          <td>
+            <div class="card-5">
+                <img src="./images/orchids.jpg" class="card-5-img" alt="orchids">
+                <h2 class="header-5">ORCHIDS</h2>
+                <p class="description-5">
+                   Orchids can used in decorations to give your occassions and exotic and asthetic vibes.
+                </p>    
+                <p class="p5">
+                    <del>450-</del>&nbsp;<span class="price-5">400-</span>       
+                </p>
+                <button class="btn-5" value="submit">Buy Now</button>
+              </div>
+    
+          </td>
+
+
+    </tr>
+    </table>  
 </body>
 </html>
