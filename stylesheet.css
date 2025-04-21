@@ -34,11 +34,14 @@
     font-size:25px;
 }
 .btn-2{
+    border:solid 1px #000;
+    border-radius: 0px 0px 25px 25px;
     background-color: #FF748B;;
     color:#fff;
     display:block;
     margin-left:auto;
     margin-right:auto;
+    padding:5px 10px 5px 10px;
 }
 .card-3{
     height:400px;
@@ -122,13 +125,14 @@
     font-size:25px;
 }
 .btn-4{
-    background-color:#EA21A2;
-    color:#fff;
-    border: 1px solid black; 
-    border-radius:5px;
+    background-color:#F5EEEE;
+    color:#AF05AA;
+    border: 3px solid #AF05AA;
+    border-radius:10px;
     display:block;
     margin-left:auto;
     margin-right:auto;
+    font-weight: bolder;
 }
 .card-5{
     height:400px;
@@ -169,13 +173,14 @@
     font-size:25px;
 }
 .btn-5{
-    background-color:#D70654;
-    color:#fff;
-    border: 1px solid black; 
-    border-radius:5px;
+    background-color:#F3FEB8;
+    color:#D70654;
+    border: 5px solid #D70654;
+    border-radius:0px 20px 0px 20px;
     display:block;
     margin-left:auto;
     margin-right:auto;
+    font-weight: bolder;
 }
 a{
     font-weight: bolder;
