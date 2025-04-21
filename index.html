@@ -3,35 +3,40 @@
 <head>
    <title>css buttons</title>
   <style>
-         #submit{
+    #submit{
         border-style:solid;
-        border-width:5px ;
-        border-radius:10px;
-        border-color: #006600;
-        background-color: #66ff66;
-        color:#009933;
+        border-width:2px ;
+        border-radius:0px 0px 30px 30px;
+        border-color: #000;
+        background-color:#056705;
+        color:#fff;
         font-weight: bold;
         margin:20px;
-        padding:10px;
+        padding:20px;
     }
     #reset{
         border-style:solid;
-        border-width:5px ;
-        border-radius:20px 0px 20px 0px;
-        border-color:blue;
+        border-width:5px;     
+        border-radius:70px 70px 70px 70px;
+        border-color:#161179;;
         background-color:#66e0ff;
-        color:navy;
+        color:#161179;
+        font-size:15px;
         font-weight: bold;
+        font-style:italic;
         margin:20px;
-        padding:10px;
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-right:20px;
+        padding-left:20px;
 
     }
     #cancel{
-        border-style:dashed;
+        border-style:double;
         border-width:5px ;
-        border-color:#ff1a1a;
-        background-color:#ff6666;        
-        color:#b30000;
+        border-color:#fff;
+        background-color:#a80404;        
+        color:#fff;
         font-weight: bold;
         margin:20px;
         padding:10px;
@@ -39,12 +44,10 @@
         
     }
     #next{
-        border-style:solid;
-        border-width:0px 0px 5px 0px ;
-        border-radius:10px;
-        border-color: #000;
-        background-color:#006600;        
-        color:#ffffff;
+        border:solid black;
+        border-radius: 0px 10px 10px 0px;
+        background-color:#29a510;        
+        color:#000;
         font-weight: bold;
         margin:20px;
         padding:10px;
@@ -52,13 +55,14 @@
         
     }
     #back{
-        border-style:double;
-        border-width:5px ;
-        border-radius:10px;
-        border-color: #000;
-        background-color: #ff0000;        
-        color:#ffffff;
-        font-weight: bold;
+        border-style:solid;
+        border-width:6px ;
+        border-radius:0px 20px 0px 20px;
+        border-color: #ff0000;
+        background-color:#fff;        
+        color:#ff0000;
+        font-weight: bolder;
+        font-size: medium;
         margin:20px;
         padding:10px;
         
@@ -77,9 +81,9 @@
 </head>
 <body>
     <button id="submit">Submit</button>
-    <button id="reset">Reset</button>
+    <button id="reset"><img src="./images/refresh.png" id="img1" >Reset</button>
     <button id="cancel">Cancel</button>
-    <button id="next">Next</button>
+    <button id="next"><img src="./images/arrow-right.png" id="img1" >&nbsp;Next</button>
     <button id="back">Back</button>
     <br>
     <a href="cards.html">next page</a>
